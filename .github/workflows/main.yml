@@ -1,6 +1,7 @@
 name: Chatwork Scheduler
 
 on:
+  workflow_dispatch:  # 
   schedule:
     - cron: "0 10 1 * *"  # 毎月1日の10:00（日本時間）に実行
 
